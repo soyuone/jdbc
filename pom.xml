@@ -1,0 +1,47 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>jdbc</groupId>
+	<artifactId>jdbc</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>jdbc</name>
+	<description>a jdbc project for learning.</description>
+
+	<!-- dependencies元素用于定义依赖关系 -->
+	<dependencies>
+		<!-- mysql-connector-java -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.18</version>
+		</dependency>
+	</dependencies>
+
+	<!-- build元素用于定义构建信息 -->
+	<build>
+		<plugins>
+			<!-- Compiler 插件, 设定JDK版本 -->
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+	<!-- developers元素用于配置该项目的开发者信息 -->
+	<developers>
+		<developer>
+			<id>soyuone</id>
+			<name>SongYu</name>
+			<email>soyuone@sina.cn</email>
+			<roles>
+				<role>Project leader</role>
+			</roles>
+			<timezone>+8</timezone>
+		</developer>
+	</developers>
+</project>
