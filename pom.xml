@@ -36,10 +36,10 @@
 	<developers>
 		<developer>
 			<id>soyuone</id>
-			<name>SongYu</name>
-			<email>soyuone@sina.cn</email>
+			<name>Song Yu</name>
+			<email>soyuone@gmail.com</email>
 			<roles>
-				<role>Project leader</role>
+				<role>project leader</role>
 			</roles>
 			<timezone>+8</timezone>
 		</developer>
