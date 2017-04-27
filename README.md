@@ -1,2 +1,2 @@
-# jdbc
-a jdbc project for learning.
+# jdbc - a learning project
+JDBC.
